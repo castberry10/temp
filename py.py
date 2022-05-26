@@ -1,3 +1,7 @@
+import  numpy as  np
+import  matplotlib.pyplot as  plt
+from  sympy import  symbols, Limit, Derivative
+
 x, a, h = symbols('x, a, h')
 def  f_x_2 (x ):
     return  x**2
